@@ -6,7 +6,7 @@
   "scripts": {
     "codecov": "codecov",
     "test": "jest",
-    "build": "babel -d dist/ lib/",
+    "build": "babel -d dist/ lib/ --ignore \"**/*.test.js\"",
     "lint": "eslint --ext .js .",
     "clean": "rm -rf dist/"
   },
