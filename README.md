@@ -1,2 +1,20 @@
-# doi-prop-type
-DOI React Prop Type
+# DOI Prop Type
+This package is used to validate if a React Prop value is a valid DOI, e.g. `10.11647/obp.0229`.
+
+The [`prop-types` package](https://www.npmjs.com/package/prop-types) does not support a DOI prop type, therefore you can use this package to validate them, instead of using the permissive `PropType.string`.
+
+## Installation
+`npm install --save doi-prop-type`
+
+## Example Usage
+```javascript
+import React from 'react';
+import doiPropType from 'doi-prop-type';
+
+// Create a generic component
+const Doi = props => ( <a href={`https://doi.org/${props.doi}`}>{props.doi}</a> );
+
+Doi.propTypes = {
+  link: doiPropType.isRequired, // can also specify doiPropType if it is not required
+};
+```
