@@ -4,7 +4,8 @@
   "description": "React Prop Types DOI Validator",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel -d dist/ lib/ --ignore node_modules,*.test.js","
   },
   "repository": {
     "type": "git",
