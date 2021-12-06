@@ -1,6 +1,6 @@
 {
   "name": "doi-prop-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Prop Types DOI Validator",
   "main": "./dist/index.js",
   "scripts": {
