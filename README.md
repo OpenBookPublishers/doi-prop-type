@@ -1,6 +1,6 @@
 # DOI Prop Type
 
-[![Build Status](https://img.shields.io/github/workflow/status/OpenBookPublishers/doi-prop-type/build-test-and-lint/master)](https://www.npmjs.com/package/doi-prop-type)
+[![Build](https://github.com/OpenBookPublishers/doi-prop-type/actions/workflows/build_test_and_check.yml/badge.svg)](https://github.com/OpenBookPublishers/doi-prop-type/actions/workflows/build_test_and_check.yml)
 [![npm](https://img.shields.io/npm/v/doi-prop-type.svg)](https://www.npmjs.com/package/doi-prop-type)
 ![GitHub](https://img.shields.io/github/license/OpenBookPublishers/doi-prop-type)
 
