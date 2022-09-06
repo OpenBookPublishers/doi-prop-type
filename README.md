@@ -20,6 +20,6 @@ import doiPropType from 'doi-prop-type';
 const Doi = props => ( <a href={`https://doi.org/${props.doi}`}>{props.doi}</a> );
 
 Doi.propTypes = {
-  link: doiPropType.isRequired, // can also specify doiPropType if it is not required
+  doi: doiPropType.isRequired, // can also specify doiPropType if it is not required
 };
 ```
